@@ -5,19 +5,19 @@
             <button type="systrapage" label="Arrêt informel" targetlayout="infoarretinformel"/>
         </row>
         <row>
-            <button type="systranote" label="Nombre de passagers" icon="/bus_route_occupancy_icons/passenger.png"/>
+            <button type="systranote" systratypenote="number_passengers" label="Nombre de passagers" icon="/bus_route_occupancy_icons/passenger.png"/>
         </row>
     </layout>
     <layout name="infoarret">
         <row>
-            <button type="systranote" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
-            <button type="systranote" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
+            <button type="systranote" systratypenote="boardings_men" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
+            <button type="systranote" systratypenote="boardings_women" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
         </row>
         <row>
-            <button type="systranote" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
+            <button type="systranote" systratypenote="alightings" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
         </row>
         <row>
-            <button type="systranote" label="Nom de l'arrêt"/>
+            <button type="systranote" systratypenote="name" label="Nom de l'arrêt"/>
         </row>
         <row>
             <button type="voicerec" label="Note vocale"/>
@@ -25,14 +25,14 @@
     </layout>
     <layout name="infoarretinformel">
         <row>
-            <button type="systranote" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
-            <button type="systranote" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
+            <button type="systranote" systratypenote="boardings_men" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
+            <button type="systranote" systratypenote="boardings_women" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
         </row>
         <row>
-            <button type="systranote" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
+            <button type="systranote" systratypenote="alightings" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
         </row>
         <row>
-            <button type="systranote" label="Nom de l'arrêt"/>
+            <button type="systranote" systratypenote="name" label="Nom de l'arrêt"/>
         </row>
         <row>
             <button type="voicerec" label="Note vocale"/>
