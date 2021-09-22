@@ -1,41 +1,41 @@
 <layouts>
-    <layout name="root">
+    <layout name="root" iconpos="right">
         <row>
-            <button type="systrapage" label="Arrêt formel" targetlayout="infoarret"/>
-            <button type="systrapage" label="Arrêt informel" targetlayout="infoarretinformel"/>
+            <button type="systrapage" label="Arrêt formel" targetlayout="infoarret" icon="/bus_route_occupancy_icons/formal_bus_stop_v2.png"/>
         </row>
         <row>
-            <button type="systranote" systratypenote="number_passengers" label="Nombre de passagers" icon="/bus_route_occupancy_icons/passenger.png"/>
-        </row>
-    </layout>
-    <layout name="infoarret">
-        <row>
-            <button type="systranote" systratypenote="boardings_men" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
-            <button type="systranote" systratypenote="boardings_women" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
+            <button type="systrapage" label="Arrêt informel" targetlayout="infoarretinformel" icon="/bus_route_occupancy_icons/informal_bus_stop_v2.png"/>
         </row>
         <row>
-            <button type="systranote" systratypenote="alightings" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
-        </row>
-        <row>
-            <button type="systranote" systratypenote="name" label="Nom de l'arrêt"/>
-        </row>
-        <row>
-            <button type="voicerec" label="Note vocale"/>
+            <button type="systracounter" systratype="number_passengers" label="Nombre de passagers" icon="/bus_route_occupancy_icons/onboard.png" background_color="#1f4e79" is_to_validate="true"/>
         </row>
     </layout>
-    <layout name="infoarretinformel">
+    <layout name="infoarret" iconpos="left">
         <row>
-            <button type="systranote" systratypenote="boardings_men" label="Montées H" icon="/bus_route_occupancy_icons/man_icon.png"/>
-            <button type="systranote" systratypenote="boardings_women" label="Montées F" icon="/bus_route_occupancy_icons/woman_icon.png"/>
+            <button type="systracounter" systratype="boardings_men" label="Montées hommes" icon="/bus_route_occupancy_icons/boardings_men.png" background_color="#385723"/>
         </row>
         <row>
-            <button type="systranote" systratypenote="alightings" label="Descentes" icon="/bus_route_occupancy_icons/descente.png"/>
+            <button type="systracounter" systratype="boardings_women" label="Montées femmes" icon="/bus_route_occupancy_icons/boardings_women.png" background_color="#385723"/>
         </row>
         <row>
-            <button type="systranote" systratypenote="name" label="Nom de l'arrêt"/>
+            <button type="systracounter" systratype="alightings" label="Descentes" icon="/bus_route_occupancy_icons/alightings.png" background_color="#960c0c"/>
         </row>
         <row>
-            <button type="voicerec" label="Note vocale"/>
+            <button type="systranote" systratype="name" label="Nom de l'arrêt"/>
+        </row>
+    </layout>
+    <layout name="infoarretinformel" iconpos="left">
+        <row>
+            <button type="systracounter" systratype="boardings_men" label="Montées hommes" icon="/bus_route_occupancy_icons/boardings_men.png" background_color="#385723"/>
+        </row>
+        <row>
+            <button type="systracounter" systratype="boardings_women" label="Montées femmes" icon="/bus_route_occupancy_icons/boardings_women.png" background_color="#385723"/>
+        </row>
+        <row>
+            <button type="systracounter" systratype="alightings" label="Descentes" icon="/bus_route_occupancy_icons/alightings.png" background_color="#960c0c"/>
+        </row>
+        <row>
+            <button type="systranote" systratype="name" label="Nom de l'arrêt"/>
         </row>
     </layout>
 </layouts>
