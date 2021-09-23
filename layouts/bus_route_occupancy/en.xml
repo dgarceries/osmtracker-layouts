@@ -1,10 +1,10 @@
 <layouts>
     <layout name="root" iconpos="right">
         <row>
-            <button type="systrapage" label="Formal stop" targetlayout="infoarret" icon="/bus_route_occupancy_icons/formal_bus_stop_v2.png"/>
+            <button type="page" label="Formal stop" targetlayout="infoarret" icon="/bus_route_occupancy_icons/formal_bus_stop_v2.png"/>
         </row>
         <row>
-            <button type="systrapage" label="Informal stop" targetlayout="infoarretinformel" icon="/bus_route_occupancy_icons/informal_bus_stop_v2.png"/>
+            <button type="page" label="Informal stop" targetlayout="infoarretinformel" icon="/bus_route_occupancy_icons/informal_bus_stop_v2.png"/>
         </row>
         <row>
             <button type="systracounter" systratype="number_passengers" label="Onboard" icon="/bus_route_occupancy_icons/onboard.png" background_color="#1f4e79" is_to_validate="true"/>
