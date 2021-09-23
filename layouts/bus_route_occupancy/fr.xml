@@ -23,6 +23,9 @@
         <row>
             <button type="systranote" systratype="name" label="Nom de l'arrêt"/>
         </row>
+        <row>
+            <button type="systravalidate" systratype="stop_type=0" label="Valider" background_color="#385723"/>
+        </row>
     </layout>
     <layout name="infoarretinformel" iconpos="left">
         <row>
@@ -36,6 +39,9 @@
         </row>
         <row>
             <button type="systranote" systratype="name" label="Nom de l'arrêt"/>
+        </row>
+        <row>
+            <button type="systravalidate" systratype="stop_type=1" label="Valider" background_color="#385723"/>
         </row>
     </layout>
 </layouts>
