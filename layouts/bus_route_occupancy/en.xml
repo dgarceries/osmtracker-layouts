@@ -44,4 +44,12 @@
             <button type="systravalidate" systratype="stop_type=1" label="Confirm" background_color="#385723"/>
         </row>
     </layout>
+    <tags>
+        <tag_field name="Surveyor" label="Surveyor" type="string" gpx_tag="surveyor" />
+        <tag_field name="RouteID" label="Route ID" type="string" gpx_tag="route_id" />
+        <tag_field name="Direction" label="Direction" type="string" gpx_tag="direction" />
+        <tag_field name="VehicleType" label="Vehicle type" type="list" values="Bus,Minibus,Car,Motorcycle" gpx_tag="vehicle_type" />
+        <tag_field name="Fare" label="Ticket price" type="string" gpx_tag="fare" />
+        <tag_field name="HeadwayMns" label="Headway (minutes)" type="string" gpx_tag="headway_in_minutes" />
+    </tags>
 </layouts>
